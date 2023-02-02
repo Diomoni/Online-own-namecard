@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2023 by Diomoni (http://jsbin.com/sesaniz/5/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mónika Diószegi</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style id="jsbin-css">
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://i.imgur.com/tJgK3te.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+.head, .content{
+ width: 90%;
+ margin: 0 auto;
+}
+
+h1{
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.job {
+  font-size: 22px;
+  font-weight: 1000;
+  padding: 5px;
+}
+
+.fa-map-marker {
+  font-size: 22px;
+  font-weight: 1000;
+  color: purple;
+}
+
+h2{
+  font-size: 16px;
+  font-weight: 100;
+}
+ 
+.head, .links {
+  text-align: center;
+}
+
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(50%);
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+.links {
+  filter: grayscale(95%)
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+
+p {
+  font-size: 19px;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+</style>
+</head>
+<body>
+  <div class="profile-card">
+    <div class="head">
+      <div class="profile-image">
+        <img src="https://scontent.fbud7-4.fna.fbcdn.net/v/t39.30808-6/316300185_5627982687269864_4554234134466600878_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=rIYFWb8jemwAX97T83w&_nc_ht=scontent.fbud7-4.fna&oh=00_AfDPqAhN5vwygntRfeqTTG7SF-_4MBCIFCD674AI0dosiQ&oe=63DFEFBE" alt="Mónika Diószegi">
+      </div>
+      <div class="name-headline">
+        <h1>Mónika Diószegi</h1>
+        <h2 class="job">designer</h2>
+        <span>from</span>
+        <p><i class="fa fa-map-marker"></i> Tatabánya, HU</p>
+      </div>
+    </div>
+    <div class="content">
+      <p class="about">
+        I love to design. It is exciting to realize the customer's needs, including special features that make the end result more interesting. 
+      <section class="links">
+        <h2>Contact me via:</h2>
+        <br>
+        <ul>
+          <li><a href="https://twitter.com/#" title="Twitter" class="social-icon"><i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a></li>
+          <li><a href="https://instagram.com/#" title="Instagram" class="social-icon"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://behance.net/#" title="Behance" class="social-icon"><i class="fa fa-2x fa-behance-square" aria-hidden="true"></i></a></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
